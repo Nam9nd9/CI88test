@@ -1,0 +1,41 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  max-width: 500px;
+}
+.ui {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.error {
+  color: red;
+}
+.checked {
+  text-decoration: line-through;
+}
+.complate-item {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+}
+.delete {
+  margin-right: 85px;
+}
+.delete:hover {
+  color: red;
+}
+.complate-body {
+  position: relative;
+}
+.delete-all {
+  background-color: red;
+  color: wheat;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.none {
+  display: none;
+}
